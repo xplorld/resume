@@ -1,190 +1,177 @@
 \documentclass[letterpaper,11pt]{article}
 
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
-\usepackage{enumitem}
-\usepackage[pdftex]{hyperref}
-\usepackage{fancyhdr}
-
-
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.375in}
-\addtolength{\evensidemargin}{-0.375in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
-
-\urlstyle{same}
-
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-%-------------------------
-% Custom commands
-\newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+  \usepackage{latexsym}
+  \usepackage[empty]{fullpage}
+  \usepackage{titlesec}
+  \usepackage{marvosym}
+  \usepackage[usenames,dvipsnames]{color}
+  \usepackage{verbatim}
+  \usepackage{enumitem}
+  \usepackage[]{hyperref}
+  \usepackage{fancyhdr}
+  
+  
+  \pagestyle{fancy}
+  \fancyhf{} % clear all header and footer fields
+  \fancyfoot{}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+  
+  
+  % Adjust margins
+  \addtolength{\oddsidemargin}{-0.375in}
+  \addtolength{\evensidemargin}{-0.5in}
+  \addtolength{\textwidth}{1in}
+  \addtolength{\topmargin}{-.5in}
+  \addtolength{\textheight}{1.0in}
+  
+  \urlstyle{same}
+  
+  \raggedbottom
+  \raggedright
+  \setlength{\tabcolsep}{0in}
+  
+  % Sections formatting
+  \titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large
+  }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  
+  %-------------------------
+  % Custom commands
+  \newcommand{\resumeItem}[2]{
+    \item\small{
+      \textbf{#1}{: #2 \vspace{-2pt}}
+    }
   }
-}
-
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
-}
-
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
-
-\renewcommand{\labelitemii}{$\circ$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-%-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\begin{document}
-
-%----------HEADING-----------------
-\textbf{\Large Ruiyang Wang} \\
-\textbf{Looking for Full-time job for May 2019, and/or Internship for Summer 2018 outside U.S.} \\
-504 Fern Ridge Ct, Sunnyvale, CA 94087 \\
-\href{https://www.linkedin.com/in/ruiyang-wang}{LinkedIn: https://www.linkedin.com/in/ruiyang-wang/} \\
-\begin{tabular*}{\textwidth}{c@{\extracolsep{\fill}}c@{\extracolsep{\fill}}c@{\extracolsep{\fill}}c@{\extracolsep{\fill}}c}
-  \href{mailto:rywang014@gmail.com}{rywang014@gmail.com} &
-  \href{https://github.com/xplorld/}{Github: Xplorld} & Mobile : +1-669-215-9946 &
- 
-  \\
-\end{tabular*}
-
-
-%-----------EDUCATION-----------------
-\section{Education}
+  
+  \newcommand{\resumeSubheading}[4]{
+    \vspace{-1pt}\item
+      \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & #2 \\
+        \textit{\small#3} & \textit{\small #4} \\
+      \end{tabular*}\vspace{-5pt}
+  }
+  
+  \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+  
+  \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,label={}]}
+  \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+  \newcommand{\resumeItemListStart}{\begin{itemize}[label=\textbullet]}
+  \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+  
+  %-------------------------------------------
+  %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+  
+  \begin{document}
+  
+  %----------HEADING-----------------
+  \textbf{\Huge Ruiyang Wang}
+  \newline \newline
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+     
+    \href{mailto:rywang014@gmail.com}{rywang014@gmail.com} & (669) 215-9946  \\
+    99 Vista Monatana Apt 2501, San Jose, CA 95134  &\\
+  \end{tabular*}
+  
+  
+  %-----------EDUCATION-----------------
+  \section{Education}
   \resumeSubHeadingListStart
-    \resumeSubheading
-      {Carnegie Mellon University}{Mountain View, CA}
-      {Master of Science in Software Engineering}{Anticipated May 2018}
-    \resumeSubheading
-      {Shanghai Jiao Tong University}{Shanghai, China}
-      {Bachelor of Science in Computer Science;  GPA: 3.4}{June 2017}
+  \resumeSubheading
+  {Carnegie Mellon University}{Mountain View, CA}
+  {Master of Science in Software Engineering}{May 2019}
+  \resumeSubheading
+  {Shanghai Jiao Tong University}{Shanghai, China}
+  {Bachelor of Science in Computer Science}{June 2017}
   \resumeSubHeadingListEnd
-
-%
-%--------PROGRAMMING SKILLS------------
-\section{Programming Skills}
- \resumeSubHeadingListStart
-    \resumeSubItem{Languages}
-      {C, C++, Python, C\#, Objective-C, Swift, Java, JavaScript, \LaTeX}
-   
-       \resumeSubItem{Technologies}{}
-      \resumeItemListStart
-        \resumeItem{C++}
-            {RAII, Template Metaprogramming, move semantics}
-        \resumeItem{Full Stack Programming}
-            {Flask, Node.JS, ASP.NET, Bootstrap}
-        \resumeItem{iOS development}
-            {Swift, Objective-C, UIKit, Auto layout, iOS SDK}
-        \resumeItem{Cloud Computing}
-          {AWS, GCP, Azure, Auto Scaling, load balancing}
-        \resumeItem{Storage/Database}
-          {High Availability, MySQL, SQLite, PostgreSQL, MongoDB, HBase, HDFS}
-        
-      \resumeItemListEnd
-
-   
- \resumeSubHeadingListEnd
-
-
-%-----------EXPERIENCE-----------------
-\section{Experience}
+  
+  
+  %
+  %--------PROGRAMMING SKILLS------------
+  \section{Skills}
   \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {YITUTech, Infrastructure Team}{}
-      {Software Development Engineer Intern}{Sep 2017 - Dec 2017}
-      \resumeItemListStart
-        \resumeItem{Machine Learning Storage Middleware}
-          {Designed and Implemented High-performance, Distributed Key-Value database to accelerate Machine Learning workflow \textbf{3x}.}
-        \resumeItem{C++, Medical Imaging Data Service}
-          {Designed and Implemented medicine imaging database service conforming to DICOM standard, with high speed and availability}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Microsoft, Azure China Marketplace Team}{} % should I just left it blank?
-      {Software Development Engineer Intern}{June 2016 - Sep 2016}
-      \resumeItemListStart
-        \resumeItem{Azure Cloud Computing}
-          {Developed \textbf{Azure China Marketplace} that deploys images on the Azure Cloud}
-         \resumeItem{Full Stack, C\#, dot-NET}
-         {Build extensible \& flexible web applications in \textbf{Agile} and \textbf{Test-Driven} development}
-         \resumeItem{Webhook-based Automation}
-         {Utilized Github to drive a fully automated documentation system}
-      \resumeItemListEnd
-
-
-    \resumeSubheading
-      {TouchPal, iOS keyboard Team}{} % should I just left it blank?
-      {Software Development Engineer Intern}{June 2016 - Sep 2016}
-      \resumeItemListStart
-        \resumeItem{iOS UIKit}
-          {Lead refactoring of UI-side layout system using AutoLayout.}
-         \resumeItem{C++ Optimization}
-         {Optimized C++ text processing engine yielding \textbf{40\%} speedup}
-         \resumeItem{C++ code sanitization}
-         {Profiled and removed memory leaks}
-      \resumeItemListEnd
-
-
+  \resumeSubItem{Languages}
+  {C++14/17, Go, Python, C, Java, JavaScript, HTML, Rust, Objective-C, Swift, C\#}
+  \resumeSubItem{Technologies}{Kubernetes, Docker, Kafka, Redis, MongoDB, PostgresSQL, MapReduce, Spark, HBase}
+  \resumeSubItem{Skills}{Microservices, Cloud Computing, High performance C++ applications, CI/CD workflow}
+  
   \resumeSubHeadingListEnd
-
-
-%-----------PROJECTS-----------------
-\section{Projects}
+  
+  %-----------EXPERIENCE-----------------
+  \section{Experience}
+  \resumeSubHeadingListStart
+    
+  \resumeSubheading
+  {Google, Linux Core Kernel Team, Software Engineer}{} % should I just left it blank?
+  {Refactored the Kernel development workflow}{July 2019 - present}
+  \resumeItemListStart
+  \resumeItem{Git-based CLI Development}
+  {Developed Command-line tool in Go to help developers interact with the system.}
+  \resumeItem{Continuous Integration}
+  {Built services monitoring new commits and automatically build and test.}
+  \resumeItem{Anomaly Detection}
+  {Collected metric data from production machines for analysis to find out anomalies and potential causes.}
+  \resumeItemListEnd
+  
+  \resumeSubheading
+  {Clarity Movement Co., Software Team, SDE Intern}{}
+  {Constructed automated microservice documentation, monitoring and orchestration}{May 2018 - Aug 2018}
+  \resumeItemListStart
+  \resumeItem{Document Generation} {Designed CI program to update documents from code for reliable lookup and testing.}
+  \resumeItem{Microservice Monitoring}{Traced requests and performances of microservices in \textbf{Node.JS} and \textbf{Python} on AWS Lambda and AWS Elastic Beanstalk with AWS X-Ray integration.}
+  \resumeItem{Microservice Orchestration}
+  {Speedup integration testing \textbf{2x} by creating orchestration tool based on \textbf{Kubernetes} for \textbf{MongoDB}, \textbf{Kafka}, \textbf{Redis} and business microservices for fast, \textbf{dockerized} testing and deploying}
+  \resumeItemListEnd
+  
+  \resumeSubheading
+  {YITU Tech, Infrastructure Team, SDE Intern}{}
+  {Accelerated Machine Learning Training and Inference}{Sep 2017 - Dec 2017}
+  \resumeItemListStart
+  \resumeItem{Dataset Service for Machine Learning}
+  {Accelerated PyTorch jobs \textbf{3x} by designing and implementing distributed high-performance key-value dataset service.}
+  \resumeItem{C++ Medical Imaging Data Service}
+  {Achieved \textbf{5x} speed for medicine imaging storage service with high availability and conformance to industrial standards by reimplementing critical logic.}
+  \resumeItemListEnd
+  
+  \resumeSubHeadingListEnd
+  
+  
+  %-----------PROJECTS-----------------
+  \section{Projects}
   \resumeSubHeadingListStart
   
-      \resumeSubItem{Twitter Big Data Analysis}
-      {}
-      \resumeItemListStart
-        \resumeItem{Scalable web service}
-          {Constructed \textbf{Terabybte}-level Tweet \textbf{big data} analytics web service \textbf{on Cloud}.}
-         \resumeItem{Cloud Computing}
-         {Utilized AWS EC2, elastic load balancing and auto scaling for system performance.}
-         \resumeItem{Big data analysis}
-         {Used MapReduce jobs to cleanse and analyze Twitter data.}
-      \resumeItemListEnd
-      
-    \resumeSubItem{Scheme Interpreter}
-      {Built in Python featuring \textbf{tail call optimization}, \textbf{call/cc} and \textbf{pattern matching}.}
-    \resumeSubItem{Campus Activity App}
-      {Built Official iOS App in University for on-campus activity registration and discussion.}
-    \resumeSubItem{Stack machine in Compile-time C++14}
-      {Compiled Turing-complete language by Template metaprogramming. }
-    \resumeSubItem{Neural Language Model}
-      {Used LSTM and heuristics models, achieved better BLEU score than baseline.}
-    
+  \resumeSubheading{\href{https://github.com/xplorld/MongoDBClusterOnDocker}{Docker Image of MongoDB Cluster}}{}
+  {Dockerized MongoDB cluster for integration testing}{May 2018 - Aug 2018}
+  \resumeItemListStart
+  \resumeItem{Fast Initialization}
+  {Created lightweight container initializing the whole cluster in seconds.}
+  \resumeItem{Kubernetes Integration}
+  {Enabled easy integration into Kubernetes Cluster with minimal configurations.}
+  \resumeItem{Production-like Testing Environment}
+  {Provided production-like database connection for accurate testing.}
+  \resumeItemListEnd
+  
+  \resumeSubheading{Twitter Analysis Web Service}{}
+  {Course project of 15619 Cloud Computing at CMU}{Jan 2018 - May 2018}
+  \resumeItemListStart
+  \resumeItem{On-Cloud Big Data Analysis}
+  {Extracted, Transformed and Loaded \textbf{1 TB} Tweet data by \textbf{MapReduce} on \textbf{AWS} for emotional scores, retweet relations and hashtag recommendations.}
+  \resumeItem{High-performance Query Service}
+  {Led developing highly optimized, distributed web service with Vert.x framework in Java and load balancer for a 20000 QPS throughput while exercising fiscal control.}
+  \resumeItemListEnd
+  
+  \resumeSubheading{Open Source Contributions}{}
+  {Various microservice-related contributions}{}
+  \resumeItemListStart
+  \resumeItem{\href{https://github.com/uutils/coreutils/pull/1283}{uutils/coreutils}}{Cross-platform Rust rewrite of the GNU coreutils.}
+  \resumeItem{\href{https://github.com/aws/chalice/pull/875}{aws/chalice}}{Python Serverless Microframework for AWS.}
+  \resumeItem{\href{https://github.com/aws/aws-xray-sdk-python/pull/65}{aws/aws-xray-sdk-python}}{AWS X-Ray SDK for the Python programming language.}
+  \resumeItemListEnd 
+  
   \resumeSubHeadingListEnd
-
-
-%-------------------------------------------
-\end{document}
+  
+  
+  %-------------------------------------------
+  \end{document}
+  
